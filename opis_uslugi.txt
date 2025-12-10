@@ -1,1 +1,9 @@
-Nazwa suługi:
+Nazwa usługi:Telekonsultacje zdrowotne
+Opis: Telekonsultacje umożliwiają pacjentom uzyskanie porady medycznej bez konieczności fizycznej wizyty w gabinecie lekarskim. Pacjenci mogą kontaktować się z lekarzami za pośrednictwem wideokonferencji, telefonu lub komunikatorów internetowych.
+
+Cele: Poprawa dostępności do usług zdrowotnych oraz obniżenie kosztów leczenia.
+
+Korzyści dla pacjentów:
+1. Oszczędność czasu dzięki braku konieczności dojazdu.
+2. Szybszy dostęp do specjalistów.
+3. Możliwość uzyskania porady z dowolnego miejsca.
