@@ -1,48 +1,23 @@
-\# Dokumentacja projektu: new\_service
+# Dokumentacja projektu: new_service
 
+## 1. Opis usługi medycznej
 
-
-\## 1. Opis usługi medycznej
-
-
-
-\*\*Usługa:\*\* Telekonsultacje zdrowotne  
-
+**Usługa:** Telekonsultacje zdrowotne  
 Telekonsultacje umożliwiają pacjentom uzyskanie porady medycznej bez konieczności fizycznej wizyty w gabinecie lekarskim. Pacjenci mogą kontaktować się z lekarzem za pośrednictwem wideokonferencji, telefonu lub komunikatorów internetowych.
 
+**Cele usługi:**
+1. Poprawa dostępności do usług zdrowotnych.
+2. Obniżenie kosztów leczenia.
+3.Usprawnienie kontaktu pacjenta z lekarzem.
 
-
-\*\*Cele usługi:\*\*
-
-1.Poprawa dostępności do usług zdrowotnych.
-
-2.Obniżenie kosztów leczenia.
-
-3\.Usprawnienie kontaktu pacjenta z lekarzem.
-
-
-
-\*\*Korzyści dla pacjentów:\*\*
-
+**Korzyści dla pacjentów:**
 1. Oszczędność czasu dzięki braku konieczności dojazdu.
+2. Szybszy dostęp do specjalistów.
+3. Możliwość uzyskania porady z dowolnego miejsca
 
-2\. Szybszy dostęp do specjalistów.
-
-3\. Możliwość uzyskania porady z dowolnego miejsca.
-
-
-
----
-
-
-
-\## 2. Dokumenty utworzone w projekcie
-
-
+## 2. Dokumenty utworzone w projekcie
 
 W repozytorium znajdują się następujące pliki:
-
-
 
 \- `opis\_uslugi.txt` – opis usługi oraz korzyści dla pacjentów.  
 
@@ -61,64 +36,35 @@ W repozytorium znajdują się następujące pliki:
 \- `.gitattributes` – konfiguracje oznaczające plik logo jako binarny.  
 
 
+## 3. Instrukcja pracy z repozytorium
 
----
-
-
-
-\## 3. Instrukcja pracy z repozytorium
-
-
-
-\### 3.1. Pobranie repozytorium
-
-
+### 3.1. Pobranie repozytorium
 
 &nbsp;   git clone https://github.com/pd5072/new\_service\_PD5072.git
 
 &nbsp;   cd new\_service\_PD5072
 
-
-
-\### 3.2. Sprawdzanie gałęzi
-
-
+### 3.2. Sprawdzanie gałęzi
 
 &nbsp;   git branch
 
-
-
-\### 3.3. Przełączanie gałęzi
-
-
+### 3.3. Przełączanie gałęzi
 
 &nbsp;   git checkout marketing
 
 &nbsp;   git checkout master
 
-
-
-\### 3.4. Tworzenie nowej gałęzi
-
-
+### 3.4. Tworzenie nowej gałęzi
 
 &nbsp;   git checkout -b nazwa\_galezi
 
-
-
-\### 3.5. Scalanie gałęzi
-
-
+### 3.5. Scalanie gałęzi
 
 &nbsp;   git checkout master
 
 &nbsp;   git merge --no-ff marketing -m "Scalono gałąź marketing z główną gałęzią"
 
-
-
-\### 3.6. Historia zmian
-
-
+### 3.6. Historia zmian
 
 &nbsp;   git log --oneline --graph --all
 
