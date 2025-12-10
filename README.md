@@ -92,25 +92,25 @@ W repozytorium znajdują się następujące pliki:
 
 ## 5. Napotkane problemy i rozwiązania
 
-**Problem 1:** **Polskie znaki w nazwie pliku*  
+**Problem 1:** *Polskie znaki w nazwie pliku*  
 
 Plik `opis_usługi.txt` powodował błędy w terminalu.  
 
 **Rozwiązanie:** zmiana nazwy na `opis_uslugi.txt`.
 
-**Problem 2:** **Przypadkowa inicjalizacja repozytorium w katalogu images*
+**Problem 2:** *Przypadkowa inicjalizacja repozytorium w katalogu images*
 
 W wyniku `git init images` powstało drugie, niepotrzebne repozytorium.  
 
 **Rozwiązanie:** usunięcie katalogu `images/.git` i ponowne dodanie `.gitkeep`.
 
-**Problem 3:** **Błędne komendy terminala*
+**Problem 3:** *Błędne komendy terminala*
 
 np. `cd.` lub brak `echo` przy dopisywaniu tekstu.  
 
 **Rozwiązanie:** poprawienie poleceń.
 
-**Problem 4:** **Literówka w nazwie pliku ankiety*  
+**Problem 4:** *Literówka w nazwie pliku ankiety*  
 
 **Rozwiązanie:** użycie poprawnej nazwy `ankieta_pacjentow.txt`.
 
