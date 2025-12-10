@@ -8,7 +8,7 @@ Telekonsultacje umożliwiają pacjentom uzyskanie porady medycznej bez konieczno
 **Cele usługi:**
 1. Poprawa dostępności do usług zdrowotnych.
 2. Obniżenie kosztów leczenia.
-3.Usprawnienie kontaktu pacjenta z lekarzem.
+3. Usprawnienie kontaktu pacjenta z lekarzem.
 
 **Korzyści dla pacjentów:**
 1. Oszczędność czasu dzięki braku konieczności dojazdu.
@@ -19,15 +19,15 @@ Telekonsultacje umożliwiają pacjentom uzyskanie porady medycznej bez konieczno
 
 W repozytorium znajdują się następujące pliki:
 
-\- `opis\_uslugi.txt` – opis usługi oraz korzyści dla pacjentów.  
+\- `opis_uslugi.txt` – opis usługi oraz korzyści dla pacjentów.  
 
-\- `plan\_wdrożenia.txt` – plan działań niezbędnych do wdrożenia usługi.  
+\- `plan_wdrożenia.txt` – plan działań niezbędnych do wdrożenia usługi.  
 
 \- `ryzyka.txt` – analiza ryzyk związanych z telekonsultacjami.  
 
-\- `kampania\_marketingowa.txt` – plan kampanii marketingowej (gałąź \*\*marketing\*\*).  
+\- `kampania_marketingowa.txt` – plan kampanii marketingowej (gałąź **marketing**).  
 
-\- `ankieta\_pacjentow.txt` – przykładowa ankieta dotycząca opinii pacjentów.  
+\- `ankieta_pacjentow.txt` – przykładowa ankieta dotycząca opinii pacjentów.  
 
 \- `images/logo.png` – przykładowe logo usługi (plik binarny).  
 
@@ -40,9 +40,9 @@ W repozytorium znajdują się następujące pliki:
 
 ### 3.1. Pobranie repozytorium
 
-&nbsp;   git clone https://github.com/pd5072/new\_service\_PD5072.git
+&nbsp;   git clone https://github.com/pd5072/new_service_PD5072.git
 
-&nbsp;   cd new\_service\_PD5072
+&nbsp;   cd new_service_PD5072
 
 ### 3.2. Sprawdzanie gałęzi
 
@@ -56,7 +56,7 @@ W repozytorium znajdują się następujące pliki:
 
 ### 3.4. Tworzenie nowej gałęzi
 
-&nbsp;   git checkout -b nazwa\_galezi
+&nbsp;   git checkout -b nazwa_galezi
 
 ### 3.5. Scalanie gałęzi
 
@@ -68,23 +68,12 @@ W repozytorium znajdują się następujące pliki:
 
 &nbsp;   git log --oneline --graph --all
 
+### 3.7. Przywracanie wcześniejszych wersji dokumentów
+
+&nbsp;   git checkout HEAD~1 -- nazwa_pliku.txt
 
 
-\### 3.7. Przywracanie wcześniejszych wersji dokumentów
-
-
-
-&nbsp;   git checkout HEAD~1 -- nazwa\_pliku.txt
-
-
-
----
-
-
-
-\## 4. Wykorzystane polecenia GIT
-
-
+## 4. Wykorzystane polecenia GIT:
 
 \- `git init`
 
@@ -101,80 +90,45 @@ W repozytorium znajdują się następujące pliki:
 \- `.gitignore`, `.gitattributes`
 
 
+## 5. Napotkane problemy i rozwiązania
 
----
+**Problem 1:** **Polskie znaki w nazwie pliku*  
 
+Plik `opis_usługi.txt` powodował błędy w terminalu.  
 
+**Rozwiązanie:** zmiana nazwy na `opis_uslugi.txt`.
 
-\## 5. Napotkane problemy i rozwiązania
-
-
-
-\*\*Problem: Polskie znaki w nazwie pliku\*\*  
-
-Plik `opis\_usługi.txt` powodował błędy w terminalu.  
-
-\*\*Rozwiązanie:\*\* zmiana nazwy na `opis\_uslugi.txt`.
-
-
-
-\*\*Problem: Przypadkowa inicjalizacja repozytorium w katalogu images\*\*  
+**Problem 2:** **Przypadkowa inicjalizacja repozytorium w katalogu images*
 
 W wyniku `git init images` powstało drugie, niepotrzebne repozytorium.  
 
-\*\*Rozwiązanie:\*\* usunięcie katalogu `images/.git` i ponowne dodanie `.gitkeep`.
+**Rozwiązanie:** usunięcie katalogu `images/.git` i ponowne dodanie `.gitkeep`.
 
-
-
-\*\*Problem: Błędne komendy terminala\*\*  
+**Problem 3:** **Błędne komendy terminala*
 
 np. `cd.` lub brak `echo` przy dopisywaniu tekstu.  
 
-\*\*Rozwiązanie:\*\* poprawienie poleceń.
+**Rozwiązanie:** poprawienie poleceń.
+
+**Problem 4:** **Literówka w nazwie pliku ankiety*  
+
+**Rozwiązanie:** użycie poprawnej nazwy `ankieta_pacjentow.txt`.
 
 
-
-\*\*Problem: Literówka w nazwie pliku ankiety\*\*  
-
-\*\*Rozwiązanie:\*\* użycie poprawnej nazwy `ankieta\_pacjentow.txt`.
-
-
-
----
-
-
-
-\## 6. Wersjonowanie projektu – tag v1.0
-
-
+## 6. Wersjonowanie projektu – tag v1.0
 
 Do repozytorium dodano tag oznaczający pierwszą ukończoną wersję projektu:
-
-
 
 &nbsp;   git tag -a v1.0 -m "v1.0 - Gotowy plan wdrożenia usługi medycznej"
 
 
-
----
-
-
-
-\## 7. Zdalne repozytorium GitHub
-
-
+## 7. Zdalne repozytorium GitHub
 
 Repozytorium zostało utworzone jako:
 
-
-
 &nbsp;   new\_service\_PD5072
 
-
-
 Repozytorium połączono z lokalnym:
-
-
 
 &nbsp;   git remote add origin https://github.com/pd5072/new\_service\_PD5072.git
 
